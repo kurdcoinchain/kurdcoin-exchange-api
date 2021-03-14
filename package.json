@@ -1,0 +1,33 @@
+{
+  "name": "kurdcoin-exchange-api",
+  "version": "1.0.0",
+  "description": "Creates a ticker with information on the markets on KurdCoin",
+  "keywords": [
+    "kurdcoin",
+    "kurdcoin-exchange",
+    "kurdcoin-exchange-api"
+  ],
+  "author": "KurdCoin",
+  "bugs": {
+    "url": "https://github.com/kurdcoinchain/kurdcoin-exchange-api/issues"
+  },
+  "scripts": {
+    "deploy": "source ./setEnvironment.sh && ./deploy.sh"
+  },
+  "homepage": "https://github.com/kurdcoinchain/kurdcoin-exchange-api",
+  "dependencies": {
+    "aws-sdk": "^2.465.0",
+    "bluebird": "^3.5.0",
+    "lodash": "^4.17.11",
+    "mkdirp": "^0.5.1",
+    "node-fetch": "^1.6.3",
+    "p-queue": "^2.1.0",
+    "request": "^2.88.0",
+    "request-promise": "^4.2.1",
+    "kurdcoin-sdk": "^1.0.2",
+    "kurdcoin-exchange-directory": "git+https://github.com/kurdcoinchain/kurdcoin-exchange-directory.git"
+  },
+  "engines": {
+    "node": ">=7.4.0 <17.0.0"
+  }
+}
