@@ -24,7 +24,7 @@
     "p-queue": "^2.1.0",
     "request": "^2.88.0",
     "request-promise": "^4.2.1",
-    "kurdcoin-sdk": "^1.0.2",
+    "kurdcoin-sdk": "https://github.com/kurdcoinchain/kurdcoin-sdk.git",
     "kurdcoin-exchange-directory": "git+https://github.com/kurdcoinchain/kurdcoin-exchange-directory.git"
   },
   "engines": {

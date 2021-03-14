@@ -1,7 +1,7 @@
 const Promise = require('bluebird');
 const _ = require('lodash');
 const rp = require('request-promise');
-const StellarSdk = require('stellar-sdk');
+const StellarSdk = require('kurdcoin-sdk');
 
 const PQueue = require('p-queue');
 const queue = new PQueue({concurrency: 20});

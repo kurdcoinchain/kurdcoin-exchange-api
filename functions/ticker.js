@@ -1,7 +1,7 @@
 const Promise = require('bluebird');
 const _ = require('lodash');
 const rp = require('request-promise');
-const StellarSdk = require('stellar-sdk');
+const StellarSdk = require('kurdcoin-sdk');
 const niceRound = require('./utils/niceRound');
 
 const PQueue = require('p-queue');
@@ -9,7 +9,7 @@ const queue = new PQueue({concurrency: 20});
 
 const { HORIZON_SERVER } = require('./horizon-server.constant');
 
-const directory = require('kurdexchange-directory');
+const directory = require('kurdcoin-exchange-directory');
 
 Server = new StellarSdk.Server(HORIZON_SERVER);
 // StellarSdk.Network.usePublicNetwork();
